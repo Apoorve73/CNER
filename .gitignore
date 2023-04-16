@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+.idea/
+
 # Distribution / packaging
 .Python
 build/
@@ -32,6 +34,10 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+
+.DS_Store
+
+geckodriver.log
 
 # Installer logs
 pip-log.txt
@@ -127,3 +133,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.idea/*
